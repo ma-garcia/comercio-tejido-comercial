@@ -77,7 +77,7 @@ Esta ontología sufrirá cambios continuados hasta que se consiga un acuerdo suf
         <dcterms:hasFormat rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial.owl"/>
         <vann:preferredNamespaceUri rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial#"/>
 		<vann:preferredNamespacePrefix>escom</vann:preferredNamespacePrefix>
-        <owl:versionIRI rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial/0.1"/>
+        <owl:versionIRI rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial"/>
     </owl:Ontology>
     
 
