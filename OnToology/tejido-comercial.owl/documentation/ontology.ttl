@@ -1,0 +1,182 @@
+@prefix : <http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial> .
+
+<http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial> rdf:type owl:Ontology ;
+                                                                          owl:versionIRI <http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial/0.1> ;
+                                                                          <http://creativecommons.org/ns#license> <http://creativecommons.org/licenses/by/4.0/> ;
+                                                                          <http://purl.org/dc/elements/1.1/creator> "Antonio Ibáñez (Junta de Castilla y León)"^^xsd:string ,
+                                                                                                                    "Calixto Mellen (SEGITTUR)"^^xsd:string ,
+                                                                                                                    "Esther Minguela (LocaliData)"^^xsd:string ,
+                                                                                                                    "José Ignacio Sánchez (red.es)"^^xsd:string ,
+                                                                                                                    "José Luis Cano (Ayuntamiento de Madrid)"^^xsd:string ,
+                                                                                                                    "Juan Carlos Ballesteros (LocaliData)"^^xsd:string ,
+                                                                                                                    "Oscar Corcho (Ontology Engineering Group - Universidad Politécnica de Madrid, LocaliData)"^^xsd:string ,
+                                                                                                                    "Sonia Castro (red.es)"^^xsd:string ;
+                                                                          <http://purl.org/dc/elements/1.1/date> "2014-06-25"^^xsd:dateTime ;
+                                                                          <http://purl.org/dc/elements/1.1/identifier> "http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial"^^xsd:string ;
+                                                                          <http://purl.org/dc/elements/1.1/rights> "Creative Commons Attribution 4.0 International (CC BY 4.0)"^^xsd:string ;
+                                                                          <http://purl.org/dc/terms/description> """Vocabulario para la representación de datos sobre locales y zonas comerciales
+Este vocabulario ha sido desarrollado en el contexto del grupo sobre Turismo, Cultura y Ocio, y Comercio de AENOR. El estado del vocabulario es todavía muy inicial y sufrirá cambios
+Reutiliza términos de varios vocabularios y modelos que actualmente se utilizan para propósitos similares (y por tanto se irá actualizando de acuerdo con la evolución de estos vocabularios), incluyendo:
+- schema.org (concretamente LocalBusiness)
+- geoNames
+
+Esta ontología sufrirá cambios continuados hasta que se consiga un acuerdo suficiente sobre los términos que se incluyen en ella."""^^xsd:string ;
+                                                                          <http://purl.org/dc/terms/hasFormat> <http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial> ,
+                                                                                                               <http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial.owl> ;
+                                                                          <http://purl.org/dc/terms/issued> "2014-06-25"^^xsd:dateTime ;
+                                                                          <http://purl.org/dc/terms/title> "Vocabulario para la representación de datos sobre locales y zonas comerciales"@es ;
+                                                                          <http://purl.org/vocab/vann/preferredNamespacePrefix> "escom"^^xsd:string ;
+                                                                          <http://purl.org/vocab/vann/preferredNamespaceUri> : ;
+                                                                          rdfs:comment """Vocabulario para la representación de datos sobre locales y zonas comerciales
+Este vocabulario ha sido desarrollado en el contexto del grupo sobre Turismo, Cultura y Ocio, y Comercio de AENOR. El estado del vocabulario es todavía muy inicial y sufrirá cambios
+Reutiliza términos de varios vocabularios y modelos que actualmente se utilizan para propósitos similares (y por tanto se irá actualizando de acuerdo con la evolución de estos vocabularios), incluyendo:
+- schema.org (concretamente LocalBusiness)
+- geoNames
+
+Esta ontología sufrirá cambios continuados hasta que se consiga un acuerdo suficiente sobre los términos que se incluyen en ella."""^^xsd:string ;
+                                                                          owl:versionInfo "Esta es la versión inicial de la ontología que surge del trabajo del grupo de expertos dedicados al área de turismo en el contexto del grupo de AENOR"@es .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://purl.org/dc/terms/issued
+<http://purl.org/dc/terms/issued> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/2000/01/rdf-schema#comment
+rdfs:comment rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/2000/01/rdf-schema#isDefinedBy
+rdfs:isDefinedBy rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/2000/01/rdf-schema#label
+rdfs:label rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial#areaInfluencia
+:areaInfluencia rdf:type owl:ObjectProperty ;
+                rdfs:domain <http://schema.org/LocalBusiness> ;
+                rdfs:range <http://geonames.org/ontology#Feature> ;
+                <http://purl.org/dc/terms/issued> "2014-06-25"^^xsd:dateTime ;
+                rdfs:comment "área de influencia de un local o zona comercial"@es ;
+                rdfs:isDefinedBy <http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial> ;
+                rdfs:label "área de influencia"@es .
+
+
+###  http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial#medioTransporte
+:medioTransporte rdf:type owl:ObjectProperty ;
+                 rdfs:domain <http://schema.org/LocalBusiness> ;
+                 <http://purl.org/dc/terms/issued> "2014-06-25"^^xsd:dateTime ;
+                 rdfs:comment "Medio de transporte que se puede utilizar para acceder al local o zona comercial"@es ;
+                 rdfs:isDefinedBy <http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial> ;
+                 rdfs:label "medio de transporte"@es .
+
+
+###  http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial#tipoAccesibilidad
+:tipoAccesibilidad rdf:type owl:ObjectProperty ;
+                   rdfs:domain <http://schema.org/LocalBusiness> ;
+                   rdfs:range <http://www.w3.org/2004/02/skos/core#Concept> ;
+                   <http://purl.org/dc/terms/issued> "2014-06-25"^^xsd:dateTime ;
+                   rdfs:comment "Propiedad que representa el tipo de accesibilidad del lugar, zona o itinerario. Generalmente, se tratará de un término definido en algún SKOS"@es ;
+                   rdfs:isDefinedBy <http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial> ;
+                   rdfs:label "tipo de accesibilidad"@es .
+
+
+###  http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial#tipoComercio
+:tipoComercio rdf:type owl:ObjectProperty ;
+              rdfs:domain <http://schema.org/LocalBusiness> ;
+              rdfs:range <http://www.w3.org/2004/02/skos/core#Concept> ;
+              <http://purl.org/dc/terms/issued> "2014-06-25"^^xsd:string ;
+              rdfs:comment "Tipo de comercio, de acuerdo con alguna clasificación SKOS"@es ;
+              rdfs:isDefinedBy <http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial> ;
+              rdfs:label "tipo de comercio"@es .
+
+
+###  http://www.opengis.net/ont/geosparql#sfContains
+<http://www.opengis.net/ont/geosparql#sfContains> rdf:type owl:ObjectProperty .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial#accesible
+:accesible rdf:type owl:DatatypeProperty ;
+           rdfs:domain <http://schema.org/LocalBusiness> ;
+           rdfs:range xsd:boolean ;
+           <http://purl.org/dc/terms/issued> "2014-06-25"^^xsd:dateTime ;
+           rdfs:comment "Propiedad que representa si el local o zona comercial es accesible"@es ;
+           rdfs:isDefinedBy <http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial> ;
+           rdfs:label "accesible"@es .
+
+
+###  http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial#afluenciaPublico
+:afluenciaPublico rdf:type owl:DatatypeProperty ;
+                  rdfs:domain <http://schema.org/LocalBusiness> ;
+                  rdfs:range xsd:string ;
+                  <http://purl.org/dc/terms/issued> "2014-06-25"^^xsd:dateTime ;
+                  rdfs:comment "afluencia de público en un local o zona comercial. De momento se sugiere representar esta información mediante una cadena de caracteres, con valores como bajo, medio o alto, aunque probablemente se utilice finalmente una clasificación SKOS desarrollada al efecto."@es ;
+                  rdfs:isDefinedBy <http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial> ;
+                  rdfs:label "afluencia de público"@es .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://geonames.org/ontology#Feature
+<http://geonames.org/ontology#Feature> rdf:type owl:Class .
+
+
+###  http://schema.org/LocalBusiness
+<http://schema.org/LocalBusiness> rdf:type owl:Class .
+
+
+###  http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial#LocalComercial
+:LocalComercial rdf:type owl:Class ;
+                rdfs:subClassOf <http://geonames.org/ontology#Feature> ,
+                                <http://schema.org/LocalBusiness> ;
+                <http://purl.org/dc/terms/issued> "2014-06-25"^^xsd:dateTime ;
+                rdfs:comment "Local donde ser puede realizar algún tipo de actividad comercial"@es ;
+                rdfs:isDefinedBy <http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial> ;
+                rdfs:label "Local Comercial"@es .
+
+
+###  http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial#ZonaComercial
+:ZonaComercial rdf:type owl:Class ;
+               rdfs:subClassOf <http://geonames.org/ontology#Feature> ,
+                               <http://schema.org/LocalBusiness> ,
+                               [ rdf:type owl:Restriction ;
+                                 owl:onProperty <http://www.opengis.net/ont/geosparql#sfContains> ;
+                                 owl:someValuesFrom :LocalComercial
+                               ] ;
+               <http://purl.org/dc/terms/issued> "2014-06-25"^^xsd:dateTime ;
+               rdfs:comment "Zona que se considera como zona comercial, y que contiene una cantidad relevante de locales comerciales"@es ;
+               rdfs:isDefinedBy <http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial> ;
+               rdfs:label "Zona Comercial"@es .
+
+
+###  http://www.w3.org/2004/02/skos/core#Concept
+<http://www.w3.org/2004/02/skos/core#Concept> rdf:type owl:Class .
+
+
+[ rdfs:label "HTML"^^xsd:string
+] .
+
+[ rdfs:label "RDF"^^xsd:string
+ ] .
+
+###  Generated by the OWL API (version 5.1.0) https://github.com/owlcs/owlapi/
