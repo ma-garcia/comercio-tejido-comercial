@@ -1,0 +1,19 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1501"
+node [shape = rectangle, color="orange"]; "skos:Concept" "escom:LocalComercial" "schema:LocalBusiness" "geonames:Feature" ; /*classes style*/
+	"http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial" -> "http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial.owl" [ label = "dcterms:hasFormat" ];
+	"http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial" -> "http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial" [ label = "dcterms:hasFormat" ];
+	"http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial" -> "http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial" [ label = "owl:versionIRI" ];
+	"http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial" -> "http://creativecommons.org/licenses/by/4.0/" [ label = "cc:license" ];
+	"http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial" -> "escom:" [ label = "vann:preferredNamespaceUri" ];
+	"NULL" -> "escom:LocalComercial" [ label = "owl:someValuesFrom" ];
+	"NULL" -> "geosparql:sfContains" [ label = "owl:onProperty" ];
+	"schema:LocalBusiness" -> "xsd:string" [ label = "escom:afluenciaPublico" ];
+	"schema:LocalBusiness" -> "owl:Thing" [ label = "escom:medioTransporte" ];
+	"schema:LocalBusiness" -> "xsd:boolean" [ label = "escom:accesible" ];
+	"schema:LocalBusiness" -> "skos:Concept" [ label = "escom:tipoComercio" ];
+	"schema:LocalBusiness" -> "geonames:Feature" [ label = "escom:areaInfluencia" ];
+	"schema:LocalBusiness" -> "skos:Concept" [ label = "escom:tipoAccesibilidad" ];
+
+}
