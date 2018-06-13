@@ -1,5 +1,5 @@
 <http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial> <http://www.w3.org/2002/07/owl#versionIRI> <http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial/0.1> .
+<http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial> <http://www.w3.org/2002/07/owl#versionIRI> <http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial> .
 <http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial> <http://creativecommons.org/ns#license> <http://creativecommons.org/licenses/by/4.0/> .
 <http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial> <http://purl.org/dc/elements/1.1/creator> "Antonio Ib\u00E1\u00F1ez (Junta de Castilla y Le\u00F3n)" .
 <http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial> <http://purl.org/dc/elements/1.1/creator> "Calixto Mellen (SEGITTUR)" .

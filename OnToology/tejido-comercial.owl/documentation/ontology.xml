@@ -11,7 +11,7 @@
      xmlns:vann="http://purl.org/vocab/vann/"
      xmlns:dc="http://purl.org/dc/elements/1.1/">
     <owl:Ontology rdf:about="http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial">
-        <owl:versionIRI rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial/0.1"/>
+        <owl:versionIRI rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial"/>
         <ns:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
         <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Antonio Ibáñez (Junta de Castilla y León)</dc:creator>
         <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Calixto Mellen (SEGITTUR)</dc:creator>

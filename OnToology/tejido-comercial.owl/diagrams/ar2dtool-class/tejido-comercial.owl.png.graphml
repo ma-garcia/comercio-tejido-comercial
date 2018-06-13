@@ -5,7 +5,7 @@
    <key for="edge" id="d2" yfiles.type="edgegraphics" />
    <key attr.name="description" attr.type="string" for="edge" id="d3" />
    <key for="graphml" id="d4" yfiles.type="resources" />
-   <graph edgedefault="directed" id="G" parse.edges="13" parse.nodes="14" parse.order="free">
+   <graph edgedefault="directed" id="G" parse.edges="13" parse.nodes="13" parse.order="free">
       <node id="nid_http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial">
          <data key="d0">
             <y:ShapeNode>
@@ -52,19 +52,7 @@
          </data>
          <data key="d3" />
       </edge>
-      <node id="nid_http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial/0.1">
-         <data key="d0">
-            <y:ShapeNode>
-               <y:Geometry height="30.0" width="740.0" x="0.0" y="0.0" />
-               <y:Fill color="#FFFFFF" transparent="false" />
-               <y:BorderStyle color="#000000" type="line" width="1.0" />
-               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial/0.1</y:NodeLabel>
-               <y:Shape type="rectangle" />
-            </y:ShapeNode>
-         </data>
-         <data key="d1" />
-      </node>
-    <edge id="eid_owl:versionIRI2" source="nid_http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial" target="nid_http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial/0.1">
+    <edge id="eid_owl:versionIRI2" source="nid_http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial" target="nid_http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />

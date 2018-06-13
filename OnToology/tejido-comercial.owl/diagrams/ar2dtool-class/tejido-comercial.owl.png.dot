@@ -4,7 +4,7 @@ size="1501"
 node [shape = rectangle, color="orange"]; "skos:Concept" "escom:LocalComercial" "schema:LocalBusiness" "geonames:Feature" ; /*classes style*/
 	"http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial" -> "http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial.owl" [ label = "dcterms:hasFormat" ];
 	"http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial" -> "http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial" [ label = "dcterms:hasFormat" ];
-	"http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial" -> "http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial/0.1" [ label = "owl:versionIRI" ];
+	"http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial" -> "http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial" [ label = "owl:versionIRI" ];
 	"http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial" -> "http://creativecommons.org/licenses/by/4.0/" [ label = "cc:license" ];
 	"http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial" -> "escom:" [ label = "vann:preferredNamespaceUri" ];
 	"NULL" -> "escom:LocalComercial" [ label = "owl:someValuesFrom" ];
