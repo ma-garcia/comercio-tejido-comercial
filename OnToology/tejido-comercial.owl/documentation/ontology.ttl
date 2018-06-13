@@ -7,7 +7,7 @@
 @base <http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial> .
 
 <http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial> rdf:type owl:Ontology ;
-                                                                          owl:versionIRI <http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial> ;
+                                                                          owl:versionIRI <http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial/0.1> ;
                                                                           <http://creativecommons.org/ns#license> <http://creativecommons.org/licenses/by/4.0/> ;
                                                                           <http://purl.org/dc/elements/1.1/creator> "Antonio Ibáñez (Junta de Castilla y León)"^^xsd:string ,
                                                                                                                     "Calixto Mellen (SEGITTUR)"^^xsd:string ,
@@ -20,18 +20,19 @@
                                                                           <http://purl.org/dc/elements/1.1/date> "2014-06-25"^^xsd:dateTime ;
                                                                           <http://purl.org/dc/elements/1.1/identifier> "http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial"^^xsd:string ;
                                                                           <http://purl.org/dc/elements/1.1/rights> "Creative Commons Attribution 4.0 International (CC BY 4.0)"^^xsd:string ;
-                                                                          <http://purl.org/dc/elements/1.1/title> "Vocabulario para la representación de datos sobre locales y zonas comerciales"@es ;
-                                                                          <http://purl.org/dc/terms/hasFormat> <http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial> ,
-                                                                                                               <http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial.owl> ;
-                                                                          <http://purl.org/dc/terms/issued> "2014-06-25"^^xsd:dateTime ;
-                                                                          <http://purl.org/vocab/vann/preferredNamespaceUri> : ;
-                                                                          rdfs:comment """Vocabulario para la representación de datos sobre locales y zonas comerciales
+                                                                          <http://purl.org/dc/terms/description> """Vocabulario para la representación de datos sobre locales y zonas comerciales
 Este vocabulario ha sido desarrollado en el contexto del grupo sobre Turismo, Cultura y Ocio, y Comercio de AENOR. El estado del vocabulario es todavía muy inicial y sufrirá cambios
 Reutiliza términos de varios vocabularios y modelos que actualmente se utilizan para propósitos similares (y por tanto se irá actualizando de acuerdo con la evolución de estos vocabularios), incluyendo:
 - schema.org (concretamente LocalBusiness)
 - geoNames
 
 Esta ontología sufrirá cambios continuados hasta que se consiga un acuerdo suficiente sobre los términos que se incluyen en ella. """^^xsd:string ;
+                                                                          <http://purl.org/dc/terms/hasFormat> <http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial> ,
+                                                                                                               <http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial.owl> ;
+                                                                          <http://purl.org/dc/terms/issued> "2014-06-25"^^xsd:dateTime ;
+                                                                          <http://purl.org/dc/terms/title> "Vocabulario para la representación de datos sobre locales y zonas comerciales"@es ;
+                                                                          <http://purl.org/vocab/vann/preferredNamespacePrefix> "escom"^^xsd:string ;
+                                                                          <http://purl.org/vocab/vann/preferredNamespaceUri> : ;
                                                                           owl:versionInfo "Esta es la versión inicial de la ontología que surge del trabajo del grupo de expertos dedicados al área de turismo en el contexto del grupo de AENOR"@es .
 
 #################################################################
