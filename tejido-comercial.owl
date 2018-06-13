@@ -46,30 +46,31 @@
     <owl:Ontology rdf:about="http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial">
         <dc:date rdf:datatype="&xsd;dateTime">2014-06-25</dc:date>
         <dcterms:issued rdf:datatype="&xsd;dateTime">2014-06-25</dcterms:issued>
-        <dc:identifier>http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial</dc:identifier>
         <dc:creator>Oscar Corcho (Ontology Engineering Group - Universidad Politécnica de Madrid, LocaliData)</dc:creator>
         <dc:creator>José Ignacio Sánchez (red.es)</dc:creator>
         <dc:creator>José Luis Cano (Ayuntamiento de Madrid)</dc:creator>
+        <dc:identifier>http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial</dc:identifier>
         <dc:rights>Creative Commons Attribution 4.0 International (CC BY 4.0)</dc:rights>
         <dc:creator>Sonia Castro (red.es)</dc:creator>
         <dc:creator>Esther Minguela (LocaliData)</dc:creator>
-        <dc:creator>Antonio Ibáñez (Junta de Castilla y León)</dc:creator>
-        <dc:creator>Calixto Mellen (SEGITTUR)</dc:creator>
         <owl:versionInfo xml:lang="es">Esta es la versión inicial de la ontología que surge del trabajo del grupo de expertos dedicados al área de turismo en el contexto del grupo de AENOR</owl:versionInfo>
-        <dc:creator>Juan Carlos Ballesteros (LocaliData)</dc:creator>
-        <dc:title xml:lang="es">Vocabulario para la representación de datos sobre locales y zonas comerciales</dc:title>
-        <rdfs:comment>Vocabulario para la representación de datos sobre locales y zonas comerciales
+        <dcterms:description>Vocabulario para la representación de datos sobre locales y zonas comerciales
 Este vocabulario ha sido desarrollado en el contexto del grupo sobre Turismo, Cultura y Ocio, y Comercio de AENOR. El estado del vocabulario es todavía muy inicial y sufrirá cambios
 Reutiliza términos de varios vocabularios y modelos que actualmente se utilizan para propósitos similares (y por tanto se irá actualizando de acuerdo con la evolución de estos vocabularios), incluyendo:
 - schema.org (concretamente LocalBusiness)
 - geoNames
 
-Esta ontología sufrirá cambios continuados hasta que se consiga un acuerdo suficiente sobre los términos que se incluyen en ella. </rdfs:comment>
+Esta ontología sufrirá cambios continuados hasta que se consiga un acuerdo suficiente sobre los términos que se incluyen en ella. </dcterms:description>
+        <dc:creator>Antonio Ibáñez (Junta de Castilla y León)</dc:creator>
+        <dc:creator>Juan Carlos Ballesteros (LocaliData)</dc:creator>
+        <dc:creator>Calixto Mellen (SEGITTUR)</dc:creator>
+        <dcterms:title xml:lang="es">Vocabulario para la representación de datos sobre locales y zonas comerciales</dcterms:title>
         <cc:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
-        <owl:versionIRI rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial"/>
         <dcterms:hasFormat rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial"/>
         <dcterms:hasFormat rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial.owl"/>
         <vann:preferredNamespaceUri rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial#"/>
+		<vann:preferredNamespacePrefix>escom</vann:preferredNamespacePrefix>
+        <owl:versionIRI rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial/0.1"/>
     </owl:Ontology>
     
 
