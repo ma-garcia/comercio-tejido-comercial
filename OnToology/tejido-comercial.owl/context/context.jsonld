@@ -38,6 +38,9 @@
     "identifier" : {
       "@id" : "http://purl.org/dc/elements/1.1/identifier"
     },
+    "preferredNamespacePrefix" : {
+      "@id" : "http://purl.org/vocab/vann/preferredNamespacePrefix"
+    },
     "isDefinedBy" : {
       "@id" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy"
     },
@@ -49,7 +52,7 @@
       "@type" : "@id"
     },
     "title" : {
-      "@id" : "http://purl.org/dc/elements/1.1/title"
+      "@id" : "http://purl.org/dc/terms/title"
     },
     "areaInfluencia" : {
       "@id" : "http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial#areaInfluencia",
@@ -74,6 +77,9 @@
     },
     "ZonaComercial" : {
       "@id" : "http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial#ZonaComercial"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/terms/description"
     },
     "tipoAccesibilidad" : {
       "@id" : "http://vocab.linkeddata.es/datosabiertos/def/comercio/tejido-comercial#tipoAccesibilidad",
