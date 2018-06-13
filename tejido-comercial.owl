@@ -60,14 +60,14 @@ Reutiliza términos de varios vocabularios y modelos que actualmente se utilizan
 - schema.org (concretamente LocalBusiness)
 - geoNames
 
-Esta ontología sufrirá cambios continuados hasta que se consiga un acuerdo suficiente sobre los términos que se incluyen en ella. </rdfs:comment>
+Esta ontología sufrirá cambios continuados hasta que se consiga un acuerdo suficiente sobre los términos que se incluyen en ella.</rdfs:comment>
         <dcterms:description>Vocabulario para la representación de datos sobre locales y zonas comerciales
 Este vocabulario ha sido desarrollado en el contexto del grupo sobre Turismo, Cultura y Ocio, y Comercio de AENOR. El estado del vocabulario es todavía muy inicial y sufrirá cambios
 Reutiliza términos de varios vocabularios y modelos que actualmente se utilizan para propósitos similares (y por tanto se irá actualizando de acuerdo con la evolución de estos vocabularios), incluyendo:
 - schema.org (concretamente LocalBusiness)
 - geoNames
 
-Esta ontología sufrirá cambios continuados hasta que se consiga un acuerdo suficiente sobre los términos que se incluyen en ella. </dcterms:description>
+Esta ontología sufrirá cambios continuados hasta que se consiga un acuerdo suficiente sobre los términos que se incluyen en ella.</dcterms:description>
         <dc:creator>Antonio Ibáñez (Junta de Castilla y León)</dc:creator>
         <dc:creator>Juan Carlos Ballesteros (LocaliData)</dc:creator>
         <dc:creator>Calixto Mellen (SEGITTUR)</dc:creator>
